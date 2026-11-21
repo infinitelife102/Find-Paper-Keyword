@@ -19,7 +19,7 @@ The table below shows a quick databases comparison.
 | Semantic Scholar | 214M+ [⁷](https://www.semanticscholar.org/product/api) | Optional | Yes | Yes (both) | Yes | ~1 req/s with key |
 | Web of Science | 240M+ [⁸](https://clarivate.com/webofsciencegroup/solutions/web-of-science/) | Required | Yes | No | No | 1 req/s (Free Trial) / 5 req/s (Institutional) |
 
-> **Every API key from the databases listed above can be obtained at no cost** - just create an account on each provider's website. We strongly recommend getting all of them before using Findpapers, as they unlock additional databases (IEEE, Scopus, Web of Science) and dramatically improve rate limits and reliability on the others (OpenAlex, PubMed, Semantic Scholar). See the **Supported Databases** section for more details on how to get these API keys, and [Configuration](https://github.com/jonatasgrosman/findpapers/blob/main/docs/configuration.md) for how to set them up.
+> **Every API key from the databases listed above can be obtained at no cost** - just create an account on each provider's website. We strongly recommend getting all of them before using Findpapers, as they unlock additional databases (IEEE, Scopus, Web of Science) and dramatically improve rate limits and reliability on the others (OpenAlex, PubMed, Semantic Scholar). See the **Supported Databases** section for more details on how to get these API keys, and [Configuration](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/configuration.md) for how to set them up.
 
 ---
 

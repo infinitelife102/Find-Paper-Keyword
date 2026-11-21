@@ -96,7 +96,7 @@ engine = findpapers.Engine(
 metrics = engine.download(result.papers, "./pdfs")
 ```
 
-See [Configuration](https://github.com/jonatasgrosman/findpapers/blob/main/docs/configuration.md) for details on proxy and SSL settings.
+See [Configuration](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/configuration.md) for details on proxy and SSL settings.
 
 ## Typical Workflow
 

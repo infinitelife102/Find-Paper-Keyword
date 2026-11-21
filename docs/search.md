@@ -42,7 +42,7 @@ result = engine.search(
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `query` | `str` | *(required)* | Boolean query string following the [Query Syntax](https://github.com/jonatasgrosman/findpapers/blob/main/docs/query-syntax.md) |
+| `query` | `str` | *(required)* | Boolean query string following the [Query Syntax](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/query-syntax.md) |
 | `databases` | `list[str] \| None` | `None` | Database identifiers to query. Accepted values: `"arxiv"`, `"ieee"`, `"openalex"`, `"pubmed"`, `"scopus"`, `"semantic_scholar"`, `"wos"`. Pass `None` to select all databases |
 | `max_papers_per_database` | `int \| None` | `None` | Cap on the number of papers retrieved from each database. `None` means no limit |
 | `since` | `datetime.date \| None` | `None` | Only return papers published on or after this date |
@@ -94,7 +94,7 @@ engine = findpapers.Engine(
 result = engine.search("[transformers]")
 ```
 
-Available database identifiers: `"arxiv"`, `"ieee"`, `"openalex"`, `"pubmed"`, `"scopus"`, `"semantic_scholar"`, `"wos"`. See [Databases](https://github.com/jonatasgrosman/findpapers/blob/main/docs/databases.md) for details on each.
+Available database identifiers: `"arxiv"`, `"ieee"`, `"openalex"`, `"pubmed"`, `"scopus"`, `"semantic_scholar"`, `"wos"`. See [Databases](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/databases.md) for details on each.
 
 ## Limiting Results
 

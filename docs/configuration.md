@@ -20,7 +20,7 @@ engine = findpapers.Engine(
 )
 ```
 
-Without any keys, Findpapers can query arXiv, OpenAlex, PubMed, and Semantic Scholar. To unlock IEEE, Scopus, and Web of Science, provide their respective API keys. See [Databases](https://github.com/jonatasgrosman/findpapers/blob/main/docs/databases.md) for details on how to get each key.
+Without any keys, Findpapers can query arXiv, OpenAlex, PubMed, and Semantic Scholar. To unlock IEEE, Scopus, and Web of Science, provide their respective API keys. See [Databases](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/databases.md) for details on how to get each key.
 
 > **Tip:** All API keys from the supported databases can be obtained at no cost. We strongly recommend getting all of them for better rate limits and broader coverage.
 

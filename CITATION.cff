@@ -5,7 +5,7 @@ authors:
   given-names: Jonatas
 title: "Findpapers: A tool for helping researchers who are looking for related works"
 date-released: 2020
-url: "https://github.com/jonatasgrosman/findpapers"
+url: "https://github.com/infinitelife102/Find-Paper-Keyword"
 preferred-citation:
   type: generic
   authors:
@@ -13,4 +13,4 @@ preferred-citation:
     given-names: Jonatas
   title: "Findpapers: A tool for helping researchers who are looking for related works"
   year: 2020
-  url: "https://github.com/jonatasgrosman/findpapers"
+  url: "https://github.com/infinitelife102/Find-Paper-Keyword"

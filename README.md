@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jonatasgrosman/findpapers/main/logo.png" alt="Findpapers Logo" width="400">
+  <img src="https://raw.githubusercontent.com/infinitelife102/Find-Paper-Keyword/main/logo.png" alt="Findpapers Logo" width="400">
 </p>
 
 <p align="center">
-  <a href="https://github.com/jonatasgrosman/findpapers/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/findpapers" alt="PyPI - License"></a>
+  <a href="https://github.com/infinitelife102/Find-Paper-Keyword/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/findpapers" alt="PyPI - License"></a>
   <a href="https://pypi.org/project/findpapers"><img src="https://img.shields.io/pypi/v/findpapers" alt="PyPI"></a>
 </p>
 
-> **WARNING:** A new release is currently being prepared. The `main` branch may change frequently until then. If something stops working, update the tool with `pip install --upgrade git+https://github.com/jonatasgrosman/findpapers.git` and check the latest version of the [documentation](https://github.com/jonatasgrosman/findpapers/tree/main/docs). If you find a bug, please [open an issue](https://github.com/jonatasgrosman/findpapers/issues).
+> **WARNING:** A new release is currently being prepared. The `main` branch may change frequently until then. If something stops working, update the tool with `pip install --upgrade git+https://github.com/infinitelife102/Find-Paper-Keyword.git` and check the latest version of the [documentation](https://github.com/infinitelife102/Find-Paper-Keyword/tree/main/docs). If you find a bug, please [open an issue](https://github.com/infinitelife102/Find-Paper-Keyword/issues).
 
 Findpapers is a Python library that gives researchers unified access to **hundreds of millions of academic papers** from different databases - all through a single query. Instead of searching the databases one by one, each with its own interface and query language, Findpapers lets you write one boolean expression and run it everywhere at once, automatically merging and deduplicating the results. It also fetches additional metadata (abstracts, keywords, citations) during search and snowballing, and can download PDFs with automatic URL resolution for major publishers. Whether you're doing a literature review, building a citation graph, or just looking for related work, Findpapers makes it easy to find the papers you need - no matter where they're published.
 
@@ -33,7 +33,7 @@ Findpapers searches for papers through **arXiv**, **CrossRef**, **IEEE Xplore**,
 ## Installation
 
 ```bash
-pip install git+https://github.com/jonatasgrosman/findpapers.git
+pip install git+https://github.com/infinitelife102/Find-Paper-Keyword.git
 ```
 
 ## Quick Start
@@ -111,11 +111,11 @@ Every paper retrieved by Findpapers (via `search()`, `get()`, or `snowball()`) i
 }
 ```
 
-See the [API Reference](https://github.com/jonatasgrosman/findpapers/blob/main/docs/api-reference.md) for the full list of fields and methods available on the `Paper` object and other classes.
+See the [API Reference](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/api-reference.md) for the full list of fields and methods available on the `Paper` object and other classes.
 
 ## Supported Databases
 
-The table below summarizes each supported database - for full details on authentication, rate limits, and per-database quirks, see the [Databases](https://github.com/jonatasgrosman/findpapers/blob/main/docs/databases.md) documentation.
+The table below summarizes each supported database - for full details on authentication, rate limits, and per-database quirks, see the [Databases](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/databases.md) documentation.
 
 | Database | Size (papers) | API Key | Coverage |
 |----------|------------|---------|----------|
@@ -129,32 +129,32 @@ The table below summarizes each supported database - for full details on authent
 | [Web of Science](https://www.webofscience.com) | 240M+ [⁸](https://clarivate.libguides.com/librarianresources/coverage) | Required | Multidisciplinary curated index of peer-reviewed literature with citation data |
 
 
-> **Every API key from the databases listed above can be obtained at no cost** - just create an account on each provider's website. We strongly recommend getting all of them before using Findpapers, as they unlock additional databases (IEEE, Scopus, Web of Science) and dramatically improve rate limits and reliability on the others (OpenAlex, PubMed, Semantic Scholar). See [Databases](https://github.com/jonatasgrosman/findpapers/blob/main/docs/databases.md) for more details on how to get these API keys, and [Configuration](https://github.com/jonatasgrosman/findpapers/blob/main/docs/configuration.md) for how to set them up.
+> **Every API key from the databases listed above can be obtained at no cost** - just create an account on each provider's website. We strongly recommend getting all of them before using Findpapers, as they unlock additional databases (IEEE, Scopus, Web of Science) and dramatically improve rate limits and reliability on the others (OpenAlex, PubMed, Semantic Scholar). See [Databases](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/databases.md) for more details on how to get these API keys, and [Configuration](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/configuration.md) for how to set them up.
 
 ## Documentation
 
 | Document | Description |
 |----------|-------------|
-| [Databases](https://github.com/jonatasgrosman/findpapers/blob/main/docs/databases.md) | Supported databases, authentication, and per-database details |
-| [Query Syntax](https://github.com/jonatasgrosman/findpapers/blob/main/docs/query-syntax.md) | How to write search queries, boolean operators, wildcards, and filter codes |
-| [Configuration](https://github.com/jonatasgrosman/findpapers/blob/main/docs/configuration.md) | Environment variables, proxy, SSL, and API keys |
-| [Search](https://github.com/jonatasgrosman/findpapers/blob/main/docs/search.md) | Multi-database search with boolean queries |
-| [Download](https://github.com/jonatasgrosman/findpapers/blob/main/docs/download.md) | Download PDFs for papers |
-| [Power-plant archive](https://github.com/jonatasgrosman/findpapers/blob/main/docs/power-collection.md) | Multi-query PDF archive in `scripts/collect_papers.py` (hydropower and thermal plants, from 2010) |
-| [Snowball](https://github.com/jonatasgrosman/findpapers/blob/main/docs/snowball.md) | Build citation graphs via forward and backward snowballing |
-| [Similar](https://github.com/jonatasgrosman/findpapers/blob/main/docs/similar.md) | Find content-similar papers around a single seed paper |
-| [Get](https://github.com/jonatasgrosman/findpapers/blob/main/docs/get.md) | Look up a single paper |
-| [Save/Load](https://github.com/jonatasgrosman/findpapers/blob/main/docs/save-load.md) | JSON, BibTeX, and CSV persistence details |
-| [API Reference](https://github.com/jonatasgrosman/findpapers/blob/main/docs/api-reference.md) | Public classes, functions, enums, and exceptions |
+| [Databases](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/databases.md) | Supported databases, authentication, and per-database details |
+| [Query Syntax](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/query-syntax.md) | How to write search queries, boolean operators, wildcards, and filter codes |
+| [Configuration](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/configuration.md) | Environment variables, proxy, SSL, and API keys |
+| [Search](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/search.md) | Multi-database search with boolean queries |
+| [Download](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/download.md) | Download PDFs for papers |
+| [Power-plant archive](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/power-collection.md) | Multi-query PDF archive in `scripts/collect_papers.py` (hydropower and thermal plants, from 2010) |
+| [Snowball](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/snowball.md) | Build citation graphs via forward and backward snowballing |
+| [Similar](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/similar.md) | Find content-similar papers around a single seed paper |
+| [Get](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/get.md) | Look up a single paper |
+| [Save/Load](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/save-load.md) | JSON, BibTeX, and CSV persistence details |
+| [API Reference](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/docs/api-reference.md) | Public classes, functions, enums, and exceptions |
 
 ## Want to help?
 
-See the [contribution guidelines](https://github.com/jonatasgrosman/findpapers/blob/main/CONTRIBUTING.md) if you'd like to contribute to the project.
-Please follow our [Code of Conduct](https://github.com/jonatasgrosman/findpapers/blob/main/CODE_OF_CONDUCT.md). You don't need to know how to code to contribute, even improving documentation is a valuable contribution.
+See the [contribution guidelines](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/CONTRIBUTING.md) if you'd like to contribute to the project.
+Please follow our [Code of Conduct](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/CODE_OF_CONDUCT.md). You don't need to know how to code to contribute, even improving documentation is a valuable contribution.
 
 If this project has been useful for you, please share it with your friends and give us a star on GitHub to help others discover it. You can also [sponsor me](https://github.com/sponsors/jonatasgrosman) to support the development of Findpapers.
 
-![Support the project by starring and sponsoring](https://raw.githubusercontent.com/jonatasgrosman/findpapers/main/support.gif)
+![Support the project by starring and sponsoring](https://raw.githubusercontent.com/infinitelife102/Find-Paper-Keyword/main/support.gif)
 
 ## Citation
 
@@ -164,7 +164,7 @@ If you use Findpapers in your research, please cite it:
 @misc{grosman2020findpapers,
   title={{Findpapers: A tool for helping researchers who are looking for related works}},
   author={Grosman, Jonatas},
-  howpublished={\url{https://github.com/jonatasgrosman/findpapers}},
+  howpublished={\url{https://github.com/infinitelife102/Find-Paper-Keyword}},
   year={2020}
 }
 ```

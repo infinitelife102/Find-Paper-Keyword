@@ -71,7 +71,7 @@ PM_ELINK_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi"
 HEADERS = {
     "User-Agent": (
         "findpapers-test-collector/1.0 "
-        "(https://github.com/jonatasgrosman/findpapers; "
+        "(https://github.com/infinitelife102/Find-Paper-Keyword; "
         "mailto:findpapers@users.noreply.github.com)"
     ),
 }

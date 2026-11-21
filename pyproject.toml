@@ -6,9 +6,9 @@ authors = ["Jonatas Grosman <jonatasgrosman@gmail.com>"]
 maintainers = ["Jonatas Grosman <jonatasgrosman@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/jonatasgrosman/findpapers"
-repository = "https://github.com/jonatasgrosman/findpapers"
-documentation = "https://github.com/jonatasgrosman/findpapers"
+homepage = "https://github.com/infinitelife102/Find-Paper-Keyword"
+repository = "https://github.com/infinitelife102/Find-Paper-Keyword"
+documentation = "https://github.com/infinitelife102/Find-Paper-Keyword"
 keywords = ["academic", "academic publications", "academic publishing", "arxiv", "bibtex", "collect papers", "crawler", "crossref", "ieee", "openalex", "paper", "papers", "pubmed", "research", "semantic scholar", "scientific papers", "scientific publications", "scientific publishing", "scopus", "scraper", "systematic mapping", "systematic review"]
 
 [tool.poetry.dependencies]
@@ -41,7 +41,7 @@ vulture = "^2.14.0"
 pygments = ">=2.20.0"
 
 [tool.poetry.urls]
-issues = "https://github.com/jonatasgrosman/findpapers/issues"
+issues = "https://github.com/infinitelife102/Find-Paper-Keyword/issues"
 
 [tool.pytest.ini_options]
 junit_family = "xunit2"

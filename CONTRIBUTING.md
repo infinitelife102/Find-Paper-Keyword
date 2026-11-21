@@ -13,7 +13,7 @@ today! As a contributor, here are the guidelines we would like you to follow:
 ## <a name="issue"></a> Found a Bug?
 
 If you find a bug in the source code, you can help us by
-[submitting an issue](#submit-issue) to our [GitHub Repository](https://github.com/jonatasgrosman/findpapers). Even better, you can
+[submitting an issue](#submit-issue) to our [GitHub Repository](https://github.com/infinitelife102/Find-Paper-Keyword). Even better, you can
 [submit a Pull Request](#submit-pr) with a fix.
 
 ## <a name="feature"></a> Missing a Feature?
@@ -45,15 +45,15 @@ A minimal reproduction scenario allows us to quickly confirm a bug (or point out
 
 Unfortunately, we are not able to investigate/fix bugs without a minimal reproduction, so if we don't hear back from you we are going to close an issue that doesn't have enough info to be reproduced.
 
-You can file new issues by filling out our [new issue form](https://github.com/jonatasgrosman/findpapers/issues/new).
+You can file new issues by filling out our [new issue form](https://github.com/infinitelife102/Find-Paper-Keyword/issues/new).
 
 ### <a name="submit-pr"></a> Submitting a Pull Request (PR)
 
 Before you submit your Pull Request (PR), consider the following guidelines:
 
-1. Search [GitHub](https://github.com/jonatasgrosman/findpapers/pulls) for an open or closed PR
+1. Search [GitHub](https://github.com/infinitelife102/Find-Paper-Keyword/pulls) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
-1. Fork the jonatasgrosman/findpapers repo.
+1. Fork the infinitelife102/Find-Paper-Keyword repo.
 1. Make your changes in a new git branch:
 
      ```shell
@@ -232,7 +232,7 @@ Fork and clone the Findpapers repository:
 
 1. Log in to your GitHub account or create one [here](https://github.com).
 1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the [Findpapers
-   repository](https://github.com/jonatasgrosman/findpapers).
+   repository](https://github.com/infinitelife102/Find-Paper-Keyword).
 1. Clone your fork of the Findpapers repository and define an `upstream` remote pointing back to
    the Findpapers repository that you forked in the first place.
 
@@ -244,7 +244,7 @@ git clone git@github.com:<github username>/findpapers.git
 cd findpapers
 
 # Add the Findpapers repository as an upstream remote to your repository:
-git remote add upstream https://github.com/jonatasgrosman/findpapers.git
+git remote add upstream https://github.com/infinitelife102/Find-Paper-Keyword.git
 ```
 
 ### Installing Dependencies
