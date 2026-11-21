@@ -132,7 +132,8 @@ $RECYCLE.BIN/
 _*
 !__*.py
 
-# Temporary files
-tmp/
+# Temporary files. The directory stays visible so one archive script can be tracked.
+tmp/*
+!tmp/collect_papers.py
 *.tmp
 *.log

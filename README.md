@@ -140,6 +140,7 @@ The table below summarizes each supported database - for full details on authent
 | [Configuration](https://github.com/jonatasgrosman/findpapers/blob/main/docs/configuration.md) | Environment variables, proxy, SSL, and API keys |
 | [Search](https://github.com/jonatasgrosman/findpapers/blob/main/docs/search.md) | Multi-database search with boolean queries |
 | [Download](https://github.com/jonatasgrosman/findpapers/blob/main/docs/download.md) | Download PDFs for papers |
+| [Power-plant archive](https://github.com/jonatasgrosman/findpapers/blob/main/docs/power-collection.md) | Local multi-query PDF archive in `tmp/collect_papers.py` (hydropower and thermal plants, from 2010) |
 | [Snowball](https://github.com/jonatasgrosman/findpapers/blob/main/docs/snowball.md) | Build citation graphs via forward and backward snowballing |
 | [Similar](https://github.com/jonatasgrosman/findpapers/blob/main/docs/similar.md) | Find content-similar papers around a single seed paper |
 | [Get](https://github.com/jonatasgrosman/findpapers/blob/main/docs/get.md) | Look up a single paper |

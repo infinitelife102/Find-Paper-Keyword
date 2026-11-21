@@ -21,6 +21,8 @@ for paper in result.papers[:5]:
     print(paper)
 ```
 
+A local script that runs many queries of this form, then downloads a PDF for each hit, is documented in [Power-plant archive](power-collection.md).
+
 ## Parameters
 
 ```python
