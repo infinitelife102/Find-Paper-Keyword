@@ -1,14 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/infinitelife102/Find-Paper-Keyword/main/logo.png" alt="Findpapers Logo" width="400">
-</p>
-
-<p align="center">
-  <a href="https://github.com/infinitelife102/Find-Paper-Keyword/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/findpapers" alt="PyPI - License"></a>
-  <a href="https://pypi.org/project/findpapers"><img src="https://img.shields.io/pypi/v/findpapers" alt="PyPI"></a>
-</p>
-
-> **WARNING:** A new release is currently being prepared. The `main` branch may change frequently until then. If something stops working, update the tool with `pip install --upgrade git+https://github.com/infinitelife102/Find-Paper-Keyword.git` and check the latest version of the [documentation](https://github.com/infinitelife102/Find-Paper-Keyword/tree/main/docs). If you find a bug, please [open an issue](https://github.com/infinitelife102/Find-Paper-Keyword/issues).
-
 Findpapers is a Python library that gives researchers unified access to **hundreds of millions of academic papers** from different databases - all through a single query. Instead of searching the databases one by one, each with its own interface and query language, Findpapers lets you write one boolean expression and run it everywhere at once, automatically merging and deduplicating the results. It also fetches additional metadata (abstracts, keywords, citations) during search and snowballing, and can download PDFs with automatic URL resolution for major publishers. Whether you're doing a literature review, building a citation graph, or just looking for related work, Findpapers makes it easy to find the papers you need - no matter where they're published.
 
 Findpapers searches for papers through **arXiv**, **CrossRef**, **IEEE Xplore**, **OpenAlex**, **PubMed**, **Scopus**, **Semantic Scholar**, and **Web of Science** - together covering virtually every peer-reviewed paper, preprint, and conference proceeding published across all fields of science.
@@ -152,9 +141,7 @@ The table below summarizes each supported database - for full details on authent
 See the [contribution guidelines](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/CONTRIBUTING.md) if you'd like to contribute to the project.
 Please follow our [Code of Conduct](https://github.com/infinitelife102/Find-Paper-Keyword/blob/main/CODE_OF_CONDUCT.md). You don't need to know how to code to contribute, even improving documentation is a valuable contribution.
 
-If this project has been useful for you, please share it with your friends and give us a star on GitHub to help others discover it. You can also [sponsor me](https://github.com/sponsors/jonatasgrosman) to support the development of Findpapers.
-
-![Support the project by starring and sponsoring](https://raw.githubusercontent.com/infinitelife102/Find-Paper-Keyword/main/support.gif)
+If this project has been useful for you, please share it with your friends and give us a star on GitHub to help others discover it.
 
 ## Citation
 
