@@ -1,6 +1,6 @@
 # Power-plant paper archive
 
-`tmp/collect_papers.py` is a local archive job. It is not part of the installed Findpapers package. The `tmp/` directory is listed in `.gitignore`, so the script exists only in a working copy that has it.
+`scripts/collect_papers.py` is an archive job kept in the repository. It is not part of the installed Findpapers package. Scratch files still belong under `tmp/`, which `.gitignore` excludes.
 
 The job searches for papers on hydropower and thermal power plants, keeps a paper only when a valid PDF is saved, and stores that PDF next to a JSON metadata file. Papers are kept from 2010-01-01 onward.
 
@@ -9,10 +9,10 @@ The job searches for papers on hydropower and thermal power plants, keeps a pape
 From the repository root, with the project virtual environment:
 
 ```bash
-.venv/Scripts/python.exe -u tmp/collect_papers.py
+.venv/Scripts/python.exe -u scripts/collect_papers.py
 ```
 
-On Unix, use `.venv/bin/python -u tmp/collect_papers.py`.
+On Unix, use `.venv/bin/python -u scripts/collect_papers.py`.
 
 The archive root is `D:\20260929_Power`, set by `OUTPUT_ROOT` in the script. Change that path before running on another machine.
 

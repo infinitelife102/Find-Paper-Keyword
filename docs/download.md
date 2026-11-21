@@ -119,4 +119,4 @@ print(f"Downloaded {metrics['downloaded_papers']} of {metrics['total_papers']} p
 findpapers.save_to_json(result, "results.json")
 ```
 
-For a multi-query archive that keeps a paper only when the PDF is valid, resumes after a restart, and skips a DOI that was already saved, see [Power-plant archive](power-collection.md). That job lives in `tmp/collect_papers.py` and is not part of the installed package.
+For a multi-query archive that keeps a paper only when the PDF is valid, resumes after a restart, and skips a DOI that was already saved, see [Power-plant archive](power-collection.md). That job lives in `scripts/collect_papers.py` and is not part of the installed package.
